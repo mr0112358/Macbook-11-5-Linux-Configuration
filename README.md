@@ -108,5 +108,6 @@ SUBSYSTEM=="backlight", ACTION=="add", \
 The only reliable display backlight control is provided by the driver "apple_gmux". The sysfs interface is under `/sys/class/backlight/gmux_backlight`.
 
 We add below script to custom shortcuts,
+
 > Add `bright+` with action `echo 200 >  /sys/class/backlight/gmux_backlight/brightness`
  Add `bright-` with action `echo 100 >  /sys/class/backlight/gmux_backlight/brightness`
