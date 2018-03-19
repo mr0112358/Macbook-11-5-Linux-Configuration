@@ -92,7 +92,7 @@ Section "InputClass"
 	Option 		"Hold1Move1StationaryButton" "0"
 EndSection
 ~~~
-
+Rename it by `mv 10-mtrack.conf 50-mtrack.conf`
 Log out and log in to activate it.
 
 ### Control the Screen Backlight
